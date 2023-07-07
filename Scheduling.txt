@@ -1,0 +1,55 @@
+Task ID:   11,		 Start Time:    0,		 Completion Time:   11,		 Processor Number:    1
+Task ID:    8,		 Start Time:    0,		 Completion Time:    5,		 Processor Number:    2
+Task ID:    1,		 Start Time:    5,		 Completion Time:   26,		 Processor Number:    3
+Task ID:    3,		 Start Time:    5,		 Completion Time:   26,		 Processor Number:    2
+Task ID:    6,		 Start Time:   11,		 Completion Time:   28,		 Processor Number:    1
+Task ID:    7,		 Start Time:   26,		 Completion Time:   44,		 Processor Number:    2
+Task ID:   10,		 Start Time:   26,		 Completion Time:   38,		 Processor Number:    3
+Task ID:   12,		 Start Time:   28,		 Completion Time:   33,		 Processor Number:    1
+Task ID:    9,		 Start Time:   33,		 Completion Time:   36,		 Processor Number:    1
+Task ID:    4,		 Start Time:   36,		 Completion Time:   59,		 Processor Number:    1
+Task ID:    5,		 Start Time:   38,		 Completion Time:   59,		 Processor Number:    3
+Task ID:    2,		 Start Time:   44,		 Completion Time:   63,		 Processor Number:    2
+
+Critical Path is: Start -> 11 -> 6 -> 4 -> Exit
+
+Cmax: 51
+
+Load on Processor 1: 59
+
+Load on Processor 2: 63
+
+Load on Processor 3: 54
+
+Difference between Average Load and Load on Processor 1: 0.333332
+
+Difference between Average Load and Load on Processor 2: 4.33333
+
+Difference between Average Load and Load on Processor 3: 4.66667
+
+Task ID:   12,		 Tentative Start Time:    0,		 Start Time:    0,		 Tentative Completion Time:    5,		 Completion Time:    5,		 Processor Number:    1,		 Timely Finish (NO CHANGE): 
+Task ID:   11,		 Tentative Start Time:    0,		 Start Time:    0,		 Tentative Completion Time:   11,		 Completion Time:   13,		 Processor Number:    2,		 Delayed Finish: +2
+Task ID:   10,		 Tentative Start Time:    0,		 Start Time:    0,		 Tentative Completion Time:   12,		 Completion Time:    9,		 Processor Number:    3,		 Early Finish: -3
+Task ID:    8,		 Tentative Start Time:    5,		 Start Time:    5,		 Tentative Completion Time:   10,		 Completion Time:    9,		 Processor Number:    1,		 Early Finish: -1
+Task ID:    7,		 Tentative Start Time:   10,		 Start Time:    9,		 Tentative Completion Time:   28,		 Completion Time:   26,		 Processor Number:    1,		 Early Finish: -2
+Task ID:    3,		 Tentative Start Time:   12,		 Start Time:    9,		 Tentative Completion Time:   33,		 Completion Time:   24,		 Processor Number:    3,		 Early Finish: -9
+Task ID:    9,		 Tentative Start Time:   11,		 Start Time:   13,		 Tentative Completion Time:   14,		 Completion Time:   15,		 Processor Number:    2,		 Delayed Finish: +1
+Task ID:    6,		 Tentative Start Time:   14,		 Start Time:   15,		 Tentative Completion Time:   31,		 Completion Time:   36,		 Processor Number:    2,		 Delayed Finish: +5
+Task ID:    5,		 Tentative Start Time:   33,		 Start Time:   24,		 Tentative Completion Time:   54,		 Completion Time:   40,		 Processor Number:    3,		 Early Finish: -14
+Task ID:    2,		 Tentative Start Time:   28,		 Start Time:   26,		 Tentative Completion Time:   47,		 Completion Time:   40,		 Processor Number:    1,		 Early Finish: -7
+Task ID:    1,		 Tentative Start Time:   31,		 Start Time:   36,		 Tentative Completion Time:   52,		 Completion Time:   60,		 Processor Number:    2,		 Delayed Finish: +8
+Task ID:    4,		 Tentative Start Time:   47,		 Start Time:   60,		 Tentative Completion Time:   70,		 Completion Time:   82,		 Processor Number:    1,		 Delayed Finish: +12
+
+Overall Execution Time Increased by :12
+
+Load on Processor 1: 62
+
+Load on Processor 2: 60
+
+Load on Processor 3: 40
+
+Difference between Average Load and Load on Processor 1: 8
+
+Difference between Average Load and Load on Processor 2: 6
+
+Difference between Average Load and Load on Processor 3: 14
